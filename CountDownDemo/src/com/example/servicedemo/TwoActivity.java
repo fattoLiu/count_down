@@ -5,7 +5,6 @@
 package com.example.servicedemo;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
 import android.widget.TextView;
