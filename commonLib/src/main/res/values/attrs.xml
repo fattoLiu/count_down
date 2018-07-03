@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BottomBarLayout">
+        <!--设置导航菜单的图片、名称、id，以数组的形式在 array.xml 中设置-->
+        <attr name="item_drawables" format="reference"/>
+        <attr name="item_names" format="reference"/>
+        <attr name="item_ids" format="reference"/>
+        <attr name="android:textColor" />
+        <attr name="android:textSize"/>
+    </declare-styleable>
+    <declare-styleable name="RadioGroup">
+        <attr name="checked_button" format="integer" />
+    </declare-styleable>
+</resources>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#f4ea2a</color>
+    <color name="colorPrimaryDark">#f4ea2a</color>
+    <color name="colorAccent">#515151</color>
+
+    <color name="bottom_bar_text_n">#515151</color>
+    <color name="divider">#dedede</color>
 </resources>
