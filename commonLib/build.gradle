@@ -6,7 +6,7 @@ android {
 
 
     defaultConfig {
-        minSdkVersion 18
+        minSdkVersion 15
         targetSdkVersion 27
         versionCode 1
         versionName "1.0"
@@ -28,4 +28,5 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:design:27.1.1'
     implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation "com.android.support:exifinterface:27.1.1"
 }

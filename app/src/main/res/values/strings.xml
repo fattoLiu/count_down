@@ -4,4 +4,7 @@
     <string name="discovery">发现</string>
     <string name="phone">手持</string>
     <string name="more">更多</string>
+    <string name="app_text_take_photo">拍照</string>
+    <string name="app_text_select_form_album">相册选择</string>
+    <string name="app_text_ok">确定</string>
 </resources>

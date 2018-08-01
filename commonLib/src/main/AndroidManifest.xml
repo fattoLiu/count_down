@@ -1,2 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.fatto.library" />
+    package="com.fatto.library" >
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+</manifest>

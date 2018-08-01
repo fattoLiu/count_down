@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" id="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Rectangle</title>
+    <style>
+        div {
+            text-align: center;
+            margin: auto 0;
+        }
+
+        a,a:active {
+            text-decoration: none;
+            background: rgba(136, 235, 136, 0.72);
+            color: #2a2a2a;
+            border-radius: 8px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        a:active {
+            background: rgba(97, 179, 97, 0.72);
+            -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+            -webkit-user-select: none;
+            -moz-user-select: none;
+        }
+
+         img {
+            margin-bottom: 24px;
+            object-fit: contain;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <div>
+        <img id="image" src="images/img.png" alt="animal"/>
+    </div>
+    <a href="" onclick="window.native.openCamera()" id="take_photo">拍摄照片</a>
+    <a href="" onclick="window.native.selectPhotoFromAlbum()" id="select_photo">从相册选</a>
+</div>
+<script>
+    function setImage(imgSrc) {
+        // 如果图片路径的目录名称中含有#号，需要对其进行转义替换，否则无法正确解析
+        imgSrc = imgSrc.replace(/#/g,escape("#"));
+        var imageObj = document.getElementById("image");
+        alert(imgSrc)
+        imageObj.src = imgSrc;
+    }
+</script>
+</body>
+</html>

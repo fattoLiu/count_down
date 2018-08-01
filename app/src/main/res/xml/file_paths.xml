@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <root-path
+        name="ROOT"
+        path="" />
+    <external-path
+        name="APP_IMAGES"
+        path="MMST/H5_IMAGES" />
+</paths>
